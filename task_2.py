@@ -9,7 +9,7 @@
 Введите время в секундах: 3600
 Время в формате ч:м:с - 1.0 : 60.0 : 3600
 """
-import time
-n = int(input("Введите секунды: "))
-time_format = time.strftime("%H:%M:%S", time.gmtime(n))
-print("Time in preferred format :-", time_format)
+sec = int(input("Введите секунды: "))
+h = sec // 3600
+m = sec // 60
+print(f"Time :-, {h}: {m}: {sec}")

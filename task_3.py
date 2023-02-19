@@ -9,8 +9,4 @@
 n + nn + nnn = 369
 """
 n = int(input("Введите число: "))
-temp = str(n)
-t1 = temp + temp
-t2 = temp + temp +temp
-comp = n + int(t1) + int(t2)
-print("Результат равен:", comp)
+print(f"Результат равен: {n}{n+n}{n+n+n}")
